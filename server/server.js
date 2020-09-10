@@ -27,7 +27,6 @@ app.post('/usuario', (req,res)=> {
       persona:body
     });
   }
-
 })
 
 app.put('/usuario/:id', (req,res)=> {
